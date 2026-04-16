@@ -18,8 +18,8 @@ A comprehensive, role-based Hospital Management Information System built using t
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/hospital-mis.git
-cd hospital-mis
+git clone https://github.com/RajSapale04/HMIS.git
+cd HMIS
 ```
 
 ### 2. Setup the Backend
