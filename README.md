@@ -48,7 +48,7 @@ Open a new terminal and navigate to the frontend directory:
 cd frontend
 npm install
 ```
-```
+
 Create a `.env` file in the `frontend` folder with the following variables:
 ```text
 VITE_API_URL=http://localhost:5000/api
