@@ -17,41 +17,41 @@ A comprehensive, role-based Hospital Management Information System built using t
 ## ⚙️ Local Setup Instructions
 
 ### 1. Clone the repository
-\`\`\`bash
+```bash
 git clone https://github.com/your-username/hospital-mis.git
 cd hospital-mis
-\`\`\`
+```
 
 ### 2. Setup the Backend
 Open a terminal and navigate to the backend directory:
-\`\`\`bash
+```bash
 cd backend
 npm install
-\`\`\`
+```
 Create a `.env` file in the `backend` folder with the following variables:
-\`\`\`text
+```text
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/hospital_mis
 JWT_SECRET=your_super_secret_jwt_key
-\`\`\`
+```
 Start the backend server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ### 3. Setup the Frontend
 Open a new terminal and navigate to the frontend directory:
-\`\`\`bash
+```bash
 cd frontend
 npm install
-\`\`\`
+```
 Start the Vite development server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ### 4. Database Setup
 This project requires MongoDB running locally. You can quickly spin up a local instance using Docker:
-\`\`\`bash
+```bash
 docker run --name hmis-mongo -d -p 27017:27017 mongo:latest
-\`\`\`
+```

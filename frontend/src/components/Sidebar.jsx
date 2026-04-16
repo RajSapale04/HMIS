@@ -6,7 +6,7 @@ const NAV = [
   { to: '/patients',     label: 'Patients',     roles: ['admin', 'staff', 'doctor'],       icon: '♥' },
   { to: '/appointments', label: 'Appointments', roles: ['admin', 'staff', 'doctor', 'patient'], icon: '◷' },
   { to: '/billing',      label: 'Billing',      roles: ['admin', 'staff'],                 icon: '₹' },
-  { to: '/doctors',      label: 'Doctors',      roles: ['admin'],                          icon: '✚' },
+  { to: '/doctors',      label: 'Doctors',      roles: ['admin', 'staff', 'patient'],      icon: '✚' },
 ];
 
 export default function Sidebar() {

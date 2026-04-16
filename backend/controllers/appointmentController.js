@@ -44,31 +44,51 @@ export const createAppointment = async (req, res, next) => {
   } catch (err) { next(err); }
 };
 
+
 export const getAppointments = async (req, res, next) => {
   try {
     const filter = {};
-    if (req.user.role === 'doctor')  filter.doctor  = req.user._id;
+    
+    // 1. Fixed Doctor Filter: Look up the Doctor document by User ID
+    if (req.user.role === 'doctor') {
+      const doc = await (await import('../models/Doctor.js')).default.findOne({ user: req.user._id });
+      if (doc) filter.doctor = doc._id;
+    }
+    
     if (req.user.role === 'patient') {
       const pat = await (await import('../models/Patient.js')).default.findOne({ user: req.user._id });
       if (pat) filter.patient = pat._id;
     }
+    
     if (req.query.date) {
       const d = new Date(req.query.date);
       const next = new Date(d); next.setDate(d.getDate() + 1);
       filter.date = { $gte: d, $lt: next };
     }
+    
     const appointments = await Appointment.find(filter)
       .populate({
         path: 'patient',
         populate: {
           path: 'user',
-          select: 'name email' // Pulls the name so your frontend can read r.patient.user.name
+          select: 'name email' 
         }
       })
-      .populate('doctor', 'name specialisation')
+      // 2. Deep Populate Doctor: Pull specialization AND the nested User name
+      .populate({
+        path: 'doctor',
+        select: 'specialization department',
+        populate: {
+          path: 'user',
+          select: 'name email'
+        }
+      })
       .sort({ date: 1, startTime: 1 });
+      
     res.json({ success: true, data: appointments });
-  } catch (err) { next(err); }
+  } catch (err) { 
+    next(err); 
+  }
 };
 
 export const updateAppointmentStatus = async (req, res, next) => {

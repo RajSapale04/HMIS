@@ -42,6 +42,9 @@ export default function Appointments() {
       setPatients(Array.isArray(fetchedPatients) ? fetchedPatients : [fetchedPatients]);
       setAppointments(apptRes.data.data);
       setDoctors(docRes.data.data);
+      console.log('Fetched appointments:', apptRes.data.data);
+      console.log('Fetched patients:', fetchedPatients);
+      console.log('Fetched doctors:', docRes.data.data);
     } finally {
       setLoading(false);
     }
@@ -91,7 +94,7 @@ export default function Appointments() {
 
   const columns = [
     { key: 'patient',   label: 'Patient',  render: r => r.patient?.user?.name ?? '—' },
-    { key: 'doctor',    label: 'Doctor',   render: r => `Dr. ${r.doctor?.name ?? '—'}` },
+    { key: 'doctor',    label: 'Doctor',   render: r => `Dr. ${r.doctor?.user?.name ?? '—'}` },
     { key: 'date',      label: 'Date',     render: r => new Date(r.date).toLocaleDateString() },
     { key: 'time',      label: 'Time',     render: r => `${r.startTime} – ${r.endTime}` },
     { key: 'type',      label: 'Type',     render: r => <span className="capitalize">{r.type}</span> },
@@ -171,7 +174,7 @@ export default function Appointments() {
                 className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm outline-none focus:border-violet-400 bg-white">
                 <option value="">Select doctor…</option>
                 {doctors.map(d => (
-                  <option key={d._id} value={d._id}>Dr. {d.name} — {d.specialisation}</option>
+                  <option key={d._id} value={d._id}>Dr. {d.user?.name} — {d.specialization}</option>
                 ))}
               </select>
             </div>

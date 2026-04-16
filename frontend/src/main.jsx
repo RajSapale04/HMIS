@@ -9,6 +9,7 @@ import Patients     from './pages/Patients';
 import Appointments from './pages/Appointments';
 import Billing      from './pages/Billing';
 import './index.css';
+import Doctors from './pages/Doctors';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -34,6 +35,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/billing" element={
             <ProtectedRoute roles={['admin', 'staff']}>
               <Billing />
+            </ProtectedRoute>
+          }/>
+          <Route path="/doctors" element={
+            <ProtectedRoute roles={['admin', 'staff', 'patient']}>
+              <Doctors/>
             </ProtectedRoute>
           }/>
           <Route path="*" element={<Navigate to="/dashboard" replace />} />

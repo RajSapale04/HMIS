@@ -9,3 +9,4 @@ router.post('/',     authorizeRoles('admin','staff'),          registerPatient);
 router.get('/:id',   authorizeRoles('admin','staff','doctor', 'patient'), getPatient);
 router.patch('/:id', authorizeRoles('admin','staff'),          updatePatient);
 export default router;
+

@@ -17,10 +17,11 @@ export default function Dashboard() {
     api.get('/dashboard/stats').then(r => setStats(r.data.data));
   }, []);
 
-  if (!stats) return <p className="p-8 text-gray-500">Loading MIS data…</p>;
-
   return (
     <Layout>
+        {!stats ? (
+        <p className="p-8 text-gray-500">Loading MIS data…</p>
+      ) : (
     <div className="min-h-screen bg-gray-50 p-8">
       <h1 className="mb-6 text-2xl font-semibold text-gray-800">Admin MIS Dashboard</h1>
 
@@ -59,6 +60,7 @@ export default function Dashboard() {
         </div>
       </div>
     </div>
+      )}
     </Layout>
   );
 }

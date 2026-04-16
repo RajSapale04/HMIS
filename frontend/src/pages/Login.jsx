@@ -8,7 +8,11 @@ export default function Login() {
   const [form, setForm]     = useState({ email: '', password: '' });
   const [error, setError]   = useState('');
   const [loading, setLoading] = useState(false);
-
+  console.log(
+            'Admin — admin@hmis.com / Admin@1234',
+            'Doctor — doctor@hmis.com / Doctor@1234',
+            'Patient — patient@hmis.com / Patient@1234'
+        )
   const handleSubmit = async e => {
     e.preventDefault();
     setError('');
@@ -68,18 +72,12 @@ export default function Login() {
             </div>
             <button
               type="submit" disabled={loading}
-              className="w-full rounded-lg bg-violet-600 py-2.5 text-sm font-medium text-white transition hover:bg-violet-700 disabled:opacity-60"
+              className="w-full rounded-lg mt-4 bg-violet-600 py-2.5 text-sm font-medium text-white transition hover:bg-violet-700 disabled:opacity-60"
             >
               {loading ? 'Signing in…' : 'Sign in'}
             </button>
           </form>
 
-          <div className="mt-6 border-t border-gray-100 pt-4 text-xs text-gray-400 space-y-1">
-            <p className="font-medium text-gray-500">Demo credentials</p>
-            <p>Admin — admin@hmis.com / Admin@1234</p>
-            <p>Doctor — doctor@hmis.com / Doctor@1234</p>
-            <p>Patient — patient@hmis.com / Patient@1234</p>
-          </div>
         </div>
       </div>
     </div>
