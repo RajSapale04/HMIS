@@ -30,9 +30,12 @@ npm install
 ```
 Create a `.env` file in the `backend` folder with the following variables:
 ```text
-PORT=5000
 MONGO_URI=mongodb://localhost:27017/hospital_mis
-JWT_SECRET=your_super_secret_jwt_key
+JWT_SECRET=replace_with_256bit_random_secret
+NODE_ENV=development
+PORT=5000
+CLIENT_URL=http://localhost:5173
+
 ```
 Start the backend server:
 ```bash
@@ -45,6 +48,13 @@ Open a new terminal and navigate to the frontend directory:
 cd frontend
 npm install
 ```
+```
+Create a `.env` file in the `frontend` folder with the following variables:
+```text
+VITE_API_URL=http://localhost:5000/api
+
+```
+
 Start the Vite development server:
 ```bash
 npm run dev
