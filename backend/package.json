@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "test:unit": "mocha 'tests/unit/**/*.test.js' --timeout 10000 --exit",
+    "test:functional": "NODE_ENV=test mocha 'tests/functional/**/*.test.js' --timeout 15000 --exit",
+    "test:regression": "mocha 'tests/regression/**/*.suite.js' --timeout 15000 --exit --reporter mochawesome --reporter-options reportDir=reports/regression,reportFilename=regression-report,html=true,json=true",
+    "test:coverage": "jest --coverage --verbose",
+    "test:all": "npm run test:unit && npm run test:functional && npm run test:regression",
+    "report:merge": "mochawesome-merge 'reports/**/*.json' -o reports/combined.json",
+    "report:generate": "marge reports/combined.json -o reports/html --reportTitle 'HMIS Test Report'"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +30,20 @@
     "mongoose": "^8.4.1",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "chai": "^4.4.1",
+    "chai-http": "^4.4.0",
+    "jest": "^30.3.0",
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.1",
+    "mochawesome-report-generator": "^6.3.2",
+    "mongodb-memory-server": "^11.0.1",
+    "nyc": "^18.0.0",
+    "sinon": "^21.1.2"
   }
 }
