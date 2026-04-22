@@ -1,0 +1,587 @@
+2026-04-22 15:15:08,501 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-04-22 15:15:08,539 INFO o.a.j.JMeter: Loading user properties from: /home/raj/Downloads/apache-jmeter-5.6.3/bin/user.properties
+2026-04-22 15:15:08,539 INFO o.a.j.JMeter: Loading system properties from: /home/raj/Downloads/apache-jmeter-5.6.3/bin/system.properties
+2026-04-22 15:15:08,540 INFO o.a.j.JMeter: Loading additional properties from: jmeter/user.properties
+2026-04-22 15:15:08,555 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-04-22 15:15:08,555 INFO o.a.j.JMeter: Version 5.6.3
+2026-04-22 15:15:08,555 INFO o.a.j.JMeter: java.version=17.0.18
+2026-04-22 15:15:08,556 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-04-22 15:15:08,556 INFO o.a.j.JMeter: os.name=Linux
+2026-04-22 15:15:08,556 INFO o.a.j.JMeter: os.arch=amd64
+2026-04-22 15:15:08,556 INFO o.a.j.JMeter: os.version=6.8.0-110-generic
+2026-04-22 15:15:08,556 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-04-22 15:15:08,557 INFO o.a.j.JMeter: java.awt.headless=true
+2026-04-22 15:15:08,557 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-04-22 15:15:08,557 INFO o.a.j.JMeter: Available Processors =16
+2026-04-22 15:15:08,575 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-04-22 15:15:08,576 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-04-22 15:15:08,576 INFO o.a.j.JMeter: JMeterHome=/home/raj/Downloads/apache-jmeter-5.6.3
+2026-04-22 15:15:08,576 INFO o.a.j.JMeter: user.dir  =/home/raj/Desktop/Assignments/finalyear/mis/hospital_management
+2026-04-22 15:15:08,577 INFO o.a.j.JMeter: PWD       =/home/raj/Desktop/Assignments/finalyear/mis/hospital_management
+2026-04-22 15:15:08,577 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: raj-IdeaPad-5-14ALC05 FullName: raj-IdeaPad-5-14ALC05
+2026-04-22 15:15:08,602 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/raj/Desktop/Assignments/finalyear/mis/hospital_management/jmeter/results/html_report'
+2026-04-22 15:15:08,619 INFO o.a.j.s.FileServer: Default base='/home/raj/Desktop/Assignments/finalyear/mis/hospital_management'
+2026-04-22 15:15:08,624 INFO o.a.j.s.FileServer: Set new base='/home/raj/Desktop/Assignments/finalyear/mis/hospital_management/jmeter'
+2026-04-22 15:15:09,041 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-04-22 15:15:09,098 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-04-22 15:15:09,104 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-04-22 15:15:09,111 INFO o.a.j.s.SaveService: Loading file: jmeter/hmis_stress_plan.jmx
+2026-04-22 15:15:09,231 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-22 15:15:09,231 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-22 15:15:09,231 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-22 15:15:09,232 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-22 15:15:09,232 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-04-22 15:15:09,232 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-04-22 15:15:09,308 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-04-22 15:15:09,317 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-04-22 15:15:09,317 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: jmeter/results/hmis_results.jtl
+2026-04-22 15:15:09,317 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/raj/Downloads/apache-jmeter-5.6.3/bin/reportgenerator.properties
+2026-04-22 15:15:09,319 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-04-22 15:15:09,327 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-04-22 15:15:09,332 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-04-22 15:15:09,332 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-04-22 15:15:09,332 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-04-22 15:15:09,332 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-04-22 15:15:09,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-04-22 15:15:09,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-04-22 15:15:09,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-04-22 15:15:09,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-04-22 15:15:09,342 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,342 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,343 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,343 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,343 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,345 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,345 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-22 15:15:09,347 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-04-22 15:15:09,347 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-04-22 15:15:09,348 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-04-22 15:15:09,348 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-04-22 15:15:09,349 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-04-22 15:15:09,349 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-04-22 15:15:09,374 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-04-22 15:15:09,375 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-04-22 15:15:09,375 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-04-22 15:15:09,384 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-04-22 15:15:09,384 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-04-22 15:15:09,506 INFO o.a.j.r.ClassFinder: Will scan jar /home/raj/Downloads/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-22 15:15:09,515 INFO o.a.j.r.ClassFinder: Will scan jar /home/raj/Downloads/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager-1.12.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-22 15:15:09,725 INFO o.a.j.JMeter: Running test (1776851109725)
+2026-04-22 15:15:09,753 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TG1 Ramp-up 50 users
+2026-04-22 15:15:09,754 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group TG1 Ramp-up 50 users.
+2026-04-22 15:15:09,754 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-04-22 15:15:09,754 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=30 delayedStart=false
+2026-04-22 15:15:09,768 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-1
+2026-04-22 15:15:09,845 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-04-22 15:15:09,845 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : TG2 Spike 100 users
+2026-04-22 15:15:09,845 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group TG2 Spike 100 users.
+2026-04-22 15:15:09,845 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-04-22 15:15:09,846 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=100 ramp-up=30 delayedStart=false
+2026-04-22 15:15:09,847 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-1
+2026-04-22 15:15:09,886 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = raj-IdeaPad-5-14ALC05
+2026-04-22 15:15:09,903 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-04-22 15:15:09,906 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-04-22 15:15:09,906 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-04-22 15:15:09,906 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-04-22 15:15:09,907 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-04-22 15:15:09,922 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-04-22 15:15:09,922 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-04-22 15:15:10,148 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-2
+2026-04-22 15:15:10,313 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-1
+2026-04-22 15:15:10,313 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-1
+2026-04-22 15:15:10,360 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-2
+2026-04-22 15:15:10,447 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-3
+2026-04-22 15:15:10,482 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-2
+2026-04-22 15:15:10,482 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-2
+2026-04-22 15:15:10,748 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-4
+2026-04-22 15:15:10,862 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-3
+2026-04-22 15:15:10,863 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-3
+2026-04-22 15:15:10,961 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-3
+2026-04-22 15:15:11,048 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-5
+2026-04-22 15:15:11,065 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-4
+2026-04-22 15:15:11,065 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-4
+2026-04-22 15:15:11,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-6
+2026-04-22 15:15:11,457 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-5
+2026-04-22 15:15:11,457 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-5
+2026-04-22 15:15:11,559 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-4
+2026-04-22 15:15:11,648 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-7
+2026-04-22 15:15:11,654 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-6
+2026-04-22 15:15:11,654 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-6
+2026-04-22 15:15:11,948 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-8
+2026-04-22 15:15:12,043 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-7
+2026-04-22 15:15:12,044 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-7
+2026-04-22 15:15:12,160 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-5
+2026-04-22 15:15:12,247 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-8
+2026-04-22 15:15:12,247 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-8
+2026-04-22 15:15:12,247 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-9
+2026-04-22 15:15:12,548 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-10
+2026-04-22 15:15:12,638 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-9
+2026-04-22 15:15:12,638 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-9
+2026-04-22 15:15:12,759 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-6
+2026-04-22 15:15:12,839 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-10
+2026-04-22 15:15:12,840 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-10
+2026-04-22 15:15:12,847 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-11
+2026-04-22 15:15:13,147 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-12
+2026-04-22 15:15:13,261 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-11
+2026-04-22 15:15:13,262 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-11
+2026-04-22 15:15:13,360 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-7
+2026-04-22 15:15:13,448 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-13
+2026-04-22 15:15:13,455 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-12
+2026-04-22 15:15:13,455 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-12
+2026-04-22 15:15:13,747 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-14
+2026-04-22 15:15:13,875 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-13
+2026-04-22 15:15:13,876 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-13
+2026-04-22 15:15:13,959 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-8
+2026-04-22 15:15:14,048 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-15
+2026-04-22 15:15:14,195 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-14
+2026-04-22 15:15:14,195 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-14
+2026-04-22 15:15:14,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-16
+2026-04-22 15:15:14,492 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-15
+2026-04-22 15:15:14,493 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-15
+2026-04-22 15:15:14,558 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-9
+2026-04-22 15:15:14,648 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-17
+2026-04-22 15:15:14,947 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-18
+2026-04-22 15:15:15,017 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-16
+2026-04-22 15:15:15,018 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-16
+2026-04-22 15:15:15,114 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-17
+2026-04-22 15:15:15,114 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-17
+2026-04-22 15:15:15,159 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-10
+2026-04-22 15:15:15,247 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-19
+2026-04-22 15:15:15,547 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-20
+2026-04-22 15:15:15,614 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-18
+2026-04-22 15:15:15,615 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-18
+2026-04-22 15:15:15,759 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-11
+2026-04-22 15:15:15,835 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-19
+2026-04-22 15:15:15,835 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-19
+2026-04-22 15:15:15,847 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-21
+2026-04-22 15:15:16,085 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-20
+2026-04-22 15:15:16,085 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-20
+2026-04-22 15:15:16,147 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-22
+2026-04-22 15:15:16,260 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-21
+2026-04-22 15:15:16,261 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-21
+2026-04-22 15:15:16,361 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-12
+2026-04-22 15:15:16,448 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-23
+2026-04-22 15:15:16,496 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-22
+2026-04-22 15:15:16,496 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-22
+2026-04-22 15:15:16,708 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-23
+2026-04-22 15:15:16,708 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-23
+2026-04-22 15:15:16,747 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-24
+2026-04-22 15:15:16,848 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-24
+2026-04-22 15:15:16,849 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-24
+2026-04-22 15:15:16,957 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-13
+2026-04-22 15:15:17,047 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-25
+2026-04-22 15:15:17,205 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-25
+2026-04-22 15:15:17,206 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-25
+2026-04-22 15:15:17,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-26
+2026-04-22 15:15:17,422 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-26
+2026-04-22 15:15:17,422 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-26
+2026-04-22 15:15:17,559 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-14
+2026-04-22 15:15:17,647 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-27
+2026-04-22 15:15:17,718 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-27
+2026-04-22 15:15:17,719 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-27
+2026-04-22 15:15:17,947 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-28
+2026-04-22 15:15:18,020 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-28
+2026-04-22 15:15:18,021 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-28
+2026-04-22 15:15:18,159 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-15
+2026-04-22 15:15:18,248 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-29
+2026-04-22 15:15:18,325 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-29
+2026-04-22 15:15:18,325 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-29
+2026-04-22 15:15:18,547 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-30
+2026-04-22 15:15:18,632 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-30
+2026-04-22 15:15:18,632 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-30
+2026-04-22 15:15:18,758 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-16
+2026-04-22 15:15:18,848 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-31
+2026-04-22 15:15:18,961 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-31
+2026-04-22 15:15:18,961 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-31
+2026-04-22 15:15:19,148 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-32
+2026-04-22 15:15:19,316 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-32
+2026-04-22 15:15:19,317 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-32
+2026-04-22 15:15:19,358 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-17
+2026-04-22 15:15:19,448 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-33
+2026-04-22 15:15:19,747 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-34
+2026-04-22 15:15:19,927 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-33
+2026-04-22 15:15:19,928 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-33
+2026-04-22 15:15:19,959 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-18
+2026-04-22 15:15:20,048 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-35
+2026-04-22 15:15:20,283 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-34
+2026-04-22 15:15:20,283 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-34
+2026-04-22 15:15:20,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-36
+2026-04-22 15:15:20,557 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-19
+2026-04-22 15:15:20,648 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-37
+2026-04-22 15:15:20,904 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-35
+2026-04-22 15:15:20,905 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-35
+2026-04-22 15:15:20,947 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-38
+2026-04-22 15:15:21,159 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-20
+2026-04-22 15:15:21,248 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-39
+2026-04-22 15:15:21,397 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-36
+2026-04-22 15:15:21,397 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-36
+2026-04-22 15:15:21,548 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-40
+2026-04-22 15:15:21,757 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-21
+2026-04-22 15:15:21,847 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-41
+2026-04-22 15:15:22,147 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-37
+2026-04-22 15:15:22,148 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-37
+2026-04-22 15:15:22,148 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-38
+2026-04-22 15:15:22,149 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-38
+2026-04-22 15:15:22,148 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-42
+2026-04-22 15:15:22,358 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-22
+2026-04-22 15:15:22,447 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-43
+2026-04-22 15:15:22,496 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-39
+2026-04-22 15:15:22,496 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-39
+2026-04-22 15:15:22,498 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-40
+2026-04-22 15:15:22,498 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-40
+2026-04-22 15:15:22,748 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-44
+2026-04-22 15:15:22,789 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-41
+2026-04-22 15:15:22,789 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-41
+2026-04-22 15:15:22,957 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-23
+2026-04-22 15:15:22,969 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-42
+2026-04-22 15:15:22,970 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-42
+2026-04-22 15:15:23,048 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-45
+2026-04-22 15:15:23,156 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-43
+2026-04-22 15:15:23,156 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-43
+2026-04-22 15:15:23,242 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-44
+2026-04-22 15:15:23,242 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-44
+2026-04-22 15:15:23,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-46
+2026-04-22 15:15:23,398 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-45
+2026-04-22 15:15:23,398 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-45
+2026-04-22 15:15:23,496 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-46
+2026-04-22 15:15:23,496 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-46
+2026-04-22 15:15:23,558 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-24
+2026-04-22 15:15:23,647 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-47
+2026-04-22 15:15:23,714 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-47
+2026-04-22 15:15:23,714 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-47
+2026-04-22 15:15:23,947 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-48
+2026-04-22 15:15:24,062 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-48
+2026-04-22 15:15:24,063 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-48
+2026-04-22 15:15:24,157 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-25
+2026-04-22 15:15:24,246 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-49
+2026-04-22 15:15:24,358 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-49
+2026-04-22 15:15:24,358 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-49
+2026-04-22 15:15:24,548 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-50
+2026-04-22 15:15:24,625 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-50
+2026-04-22 15:15:24,626 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-50
+2026-04-22 15:15:24,757 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-26
+2026-04-22 15:15:24,847 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-51
+2026-04-22 15:15:25,147 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-52
+2026-04-22 15:15:25,147 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-51
+2026-04-22 15:15:25,148 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-51
+2026-04-22 15:15:25,237 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-52
+2026-04-22 15:15:25,237 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-52
+2026-04-22 15:15:25,357 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-27
+2026-04-22 15:15:25,448 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-53
+2026-04-22 15:15:25,540 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-53
+2026-04-22 15:15:25,540 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-53
+2026-04-22 15:15:25,746 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-54
+2026-04-22 15:15:25,958 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-28
+2026-04-22 15:15:26,030 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-54
+2026-04-22 15:15:26,031 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-54
+2026-04-22 15:15:26,047 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-55
+2026-04-22 15:15:26,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-56
+2026-04-22 15:15:26,557 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-29
+2026-04-22 15:15:26,578 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-55
+2026-04-22 15:15:26,578 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-55
+2026-04-22 15:15:26,647 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-57
+2026-04-22 15:15:26,947 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-58
+2026-04-22 15:15:27,157 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-30
+2026-04-22 15:15:27,247 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-59
+2026-04-22 15:15:27,257 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-56
+2026-04-22 15:15:27,257 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-56
+2026-04-22 15:15:27,493 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-58
+2026-04-22 15:15:27,493 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-58
+2026-04-22 15:15:27,546 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-60
+2026-04-22 15:15:27,757 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-31
+2026-04-22 15:15:27,847 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-61
+2026-04-22 15:15:27,882 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-57
+2026-04-22 15:15:27,883 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-57
+2026-04-22 15:15:27,883 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-59
+2026-04-22 15:15:27,883 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-59
+2026-04-22 15:15:28,147 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-62
+2026-04-22 15:15:28,193 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-60
+2026-04-22 15:15:28,193 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-60
+2026-04-22 15:15:28,299 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-61
+2026-04-22 15:15:28,299 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-61
+2026-04-22 15:15:28,358 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-32
+2026-04-22 15:15:28,423 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-62
+2026-04-22 15:15:28,424 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-62
+2026-04-22 15:15:28,448 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-63
+2026-04-22 15:15:28,629 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-63
+2026-04-22 15:15:28,629 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-63
+2026-04-22 15:15:28,747 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-64
+2026-04-22 15:15:28,815 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-64
+2026-04-22 15:15:28,815 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-64
+2026-04-22 15:15:28,957 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-33
+2026-04-22 15:15:29,047 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-65
+2026-04-22 15:15:29,280 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-65
+2026-04-22 15:15:29,280 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-65
+2026-04-22 15:15:29,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-66
+2026-04-22 15:15:29,458 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-66
+2026-04-22 15:15:29,458 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-66
+2026-04-22 15:15:29,558 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-34
+2026-04-22 15:15:29,647 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-67
+2026-04-22 15:15:29,787 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-67
+2026-04-22 15:15:29,787 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-67
+2026-04-22 15:15:29,946 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-68
+2026-04-22 15:15:30,084 INFO o.a.j.r.Summariser: summary +    481 in 00:00:20 =   23.6/s Avg:   335 Min:     5 Max:  1608 Err:     0 (0.00%) Active: 35 Started: 102 Finished: 67
+2026-04-22 15:15:30,152 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-68
+2026-04-22 15:15:30,152 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-68
+2026-04-22 15:15:30,157 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-35
+2026-04-22 15:15:30,247 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-69
+2026-04-22 15:15:30,410 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-69
+2026-04-22 15:15:30,410 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-69
+2026-04-22 15:15:30,548 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-70
+2026-04-22 15:15:30,612 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-70
+2026-04-22 15:15:30,613 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-70
+2026-04-22 15:15:30,758 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-36
+2026-04-22 15:15:30,847 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-71
+2026-04-22 15:15:31,147 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-72
+2026-04-22 15:15:31,358 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-37
+2026-04-22 15:15:31,447 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-73
+2026-04-22 15:15:31,572 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-71
+2026-04-22 15:15:31,572 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-71
+2026-04-22 15:15:31,655 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-72
+2026-04-22 15:15:31,656 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-72
+2026-04-22 15:15:31,747 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-74
+2026-04-22 15:15:31,814 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-73
+2026-04-22 15:15:31,815 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-73
+2026-04-22 15:15:31,909 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-74
+2026-04-22 15:15:31,910 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-74
+2026-04-22 15:15:31,957 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-38
+2026-04-22 15:15:32,048 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-75
+2026-04-22 15:15:32,348 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-76
+2026-04-22 15:15:32,515 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-75
+2026-04-22 15:15:32,515 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-75
+2026-04-22 15:15:32,556 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-39
+2026-04-22 15:15:32,632 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-76
+2026-04-22 15:15:32,632 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-76
+2026-04-22 15:15:32,648 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-77
+2026-04-22 15:15:32,785 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-77
+2026-04-22 15:15:32,786 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-77
+2026-04-22 15:15:32,948 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-78
+2026-04-22 15:15:33,012 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-78
+2026-04-22 15:15:33,013 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-78
+2026-04-22 15:15:33,158 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-40
+2026-04-22 15:15:33,247 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-79
+2026-04-22 15:15:33,547 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-80
+2026-04-22 15:15:33,641 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-79
+2026-04-22 15:15:33,641 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-79
+2026-04-22 15:15:33,758 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-41
+2026-04-22 15:15:33,847 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-81
+2026-04-22 15:15:33,929 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-80
+2026-04-22 15:15:33,929 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-80
+2026-04-22 15:15:33,943 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-1
+2026-04-22 15:15:33,943 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-1
+2026-04-22 15:15:34,148 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-82
+2026-04-22 15:15:34,252 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-81
+2026-04-22 15:15:34,252 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-81
+2026-04-22 15:15:34,349 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-82
+2026-04-22 15:15:34,349 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-82
+2026-04-22 15:15:34,357 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-42
+2026-04-22 15:15:34,447 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-83
+2026-04-22 15:15:34,707 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-83
+2026-04-22 15:15:34,707 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-83
+2026-04-22 15:15:34,748 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-84
+2026-04-22 15:15:34,839 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-3
+2026-04-22 15:15:34,839 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-3
+2026-04-22 15:15:34,841 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-2
+2026-04-22 15:15:34,841 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-2
+2026-04-22 15:15:34,842 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-4
+2026-04-22 15:15:34,842 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-4
+2026-04-22 15:15:34,908 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-84
+2026-04-22 15:15:34,909 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-84
+2026-04-22 15:15:34,957 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-43
+2026-04-22 15:15:35,048 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-85
+2026-04-22 15:15:35,153 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-85
+2026-04-22 15:15:35,153 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-85
+2026-04-22 15:15:35,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-86
+2026-04-22 15:15:35,557 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-44
+2026-04-22 15:15:35,647 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-87
+2026-04-22 15:15:35,795 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-86
+2026-04-22 15:15:35,796 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-86
+2026-04-22 15:15:35,947 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-88
+2026-04-22 15:15:36,095 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-5
+2026-04-22 15:15:36,095 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-5
+2026-04-22 15:15:36,161 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-45
+2026-04-22 15:15:36,165 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-87
+2026-04-22 15:15:36,166 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-87
+2026-04-22 15:15:36,241 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-88
+2026-04-22 15:15:36,241 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-88
+2026-04-22 15:15:36,247 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-89
+2026-04-22 15:15:36,467 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-89
+2026-04-22 15:15:36,467 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-89
+2026-04-22 15:15:36,551 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-90
+2026-04-22 15:15:36,614 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-90
+2026-04-22 15:15:36,615 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-90
+2026-04-22 15:15:36,757 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-46
+2026-04-22 15:15:36,850 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-91
+2026-04-22 15:15:37,147 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-92
+2026-04-22 15:15:37,256 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-6
+2026-04-22 15:15:37,256 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-6
+2026-04-22 15:15:37,342 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-91
+2026-04-22 15:15:37,342 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-91
+2026-04-22 15:15:37,355 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-7
+2026-04-22 15:15:37,355 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-7
+2026-04-22 15:15:37,358 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-47
+2026-04-22 15:15:37,448 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-93
+2026-04-22 15:15:37,450 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-92
+2026-04-22 15:15:37,450 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-92
+2026-04-22 15:15:37,592 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-93
+2026-04-22 15:15:37,592 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-93
+2026-04-22 15:15:37,747 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-94
+2026-04-22 15:15:37,812 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-94
+2026-04-22 15:15:37,812 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-94
+2026-04-22 15:15:37,956 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-48
+2026-04-22 15:15:38,047 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-95
+2026-04-22 15:15:38,347 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-96
+2026-04-22 15:15:38,556 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-8
+2026-04-22 15:15:38,556 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-8
+2026-04-22 15:15:38,557 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-49
+2026-04-22 15:15:38,636 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-95
+2026-04-22 15:15:38,636 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-95
+2026-04-22 15:15:38,648 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-97
+2026-04-22 15:15:38,712 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-10
+2026-04-22 15:15:38,712 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-10
+2026-04-22 15:15:38,860 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-96
+2026-04-22 15:15:38,860 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-96
+2026-04-22 15:15:38,931 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-97
+2026-04-22 15:15:38,931 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-97
+2026-04-22 15:15:38,947 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-98
+2026-04-22 15:15:39,031 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-98
+2026-04-22 15:15:39,031 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-98
+2026-04-22 15:15:39,067 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-9
+2026-04-22 15:15:39,067 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-9
+2026-04-22 15:15:39,157 INFO o.a.j.t.JMeterThread: Thread started: TG1 Ramp-up 50 users 1-50
+2026-04-22 15:15:39,247 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-99
+2026-04-22 15:15:39,514 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-99
+2026-04-22 15:15:39,514 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-99
+2026-04-22 15:15:39,545 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-12
+2026-04-22 15:15:39,545 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-12
+2026-04-22 15:15:39,547 INFO o.a.j.t.JMeterThread: Thread started: TG2 Spike 100 users 2-100
+2026-04-22 15:15:39,634 INFO o.a.j.t.JMeterThread: Thread is done: TG2 Spike 100 users 2-100
+2026-04-22 15:15:39,634 INFO o.a.j.t.JMeterThread: Thread finished: TG2 Spike 100 users 2-100
+2026-04-22 15:15:39,942 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-11
+2026-04-22 15:15:39,942 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-11
+2026-04-22 15:15:40,637 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-13
+2026-04-22 15:15:40,637 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-13
+2026-04-22 15:15:42,120 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-14
+2026-04-22 15:15:42,121 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-14
+2026-04-22 15:15:42,121 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-15
+2026-04-22 15:15:42,121 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-15
+2026-04-22 15:15:44,467 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-16
+2026-04-22 15:15:44,467 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-16
+2026-04-22 15:15:45,825 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-19
+2026-04-22 15:15:45,825 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-19
+2026-04-22 15:15:45,849 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-20
+2026-04-22 15:15:45,850 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-20
+2026-04-22 15:15:46,256 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-17
+2026-04-22 15:15:46,256 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-17
+2026-04-22 15:15:47,371 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-18
+2026-04-22 15:15:47,371 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-18
+2026-04-22 15:15:47,404 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-21
+2026-04-22 15:15:47,405 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-21
+2026-04-22 15:15:47,405 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-22
+2026-04-22 15:15:47,406 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-22
+2026-04-22 15:15:49,207 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-25
+2026-04-22 15:15:49,208 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-25
+2026-04-22 15:15:49,210 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-24
+2026-04-22 15:15:49,210 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-24
+2026-04-22 15:15:49,222 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-23
+2026-04-22 15:15:49,222 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-23
+2026-04-22 15:15:51,077 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-26
+2026-04-22 15:15:51,077 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-26
+2026-04-22 15:15:52,689 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-27
+2026-04-22 15:15:52,689 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-27
+2026-04-22 15:15:54,232 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-29
+2026-04-22 15:15:54,232 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-29
+2026-04-22 15:15:54,239 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-28
+2026-04-22 15:15:54,240 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-28
+2026-04-22 15:15:55,594 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-31
+2026-04-22 15:15:55,594 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-31
+2026-04-22 15:15:55,600 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-33
+2026-04-22 15:15:55,600 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-33
+2026-04-22 15:15:55,601 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-32
+2026-04-22 15:15:55,601 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-32
+2026-04-22 15:15:55,604 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-30
+2026-04-22 15:15:55,604 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-30
+2026-04-22 15:15:58,230 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-34
+2026-04-22 15:15:58,231 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-34
+2026-04-22 15:15:59,572 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-35
+2026-04-22 15:15:59,572 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-35
+2026-04-22 15:15:59,582 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-38
+2026-04-22 15:15:59,582 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-38
+2026-04-22 15:15:59,588 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-36
+2026-04-22 15:15:59,589 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-36
+2026-04-22 15:16:00,054 INFO o.a.j.r.Summariser: summary +   1040 in 00:00:30 =   34.7/s Avg:   414 Min:     5 Max:  1829 Err:     0 (0.00%) Active: 13 Started: 150 Finished: 137
+2026-04-22 15:16:00,055 INFO o.a.j.r.Summariser: summary =   1521 in 00:00:50 =   30.2/s Avg:   389 Min:     5 Max:  1829 Err:     0 (0.00%)
+2026-04-22 15:16:00,601 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-37
+2026-04-22 15:16:00,601 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-37
+2026-04-22 15:16:01,300 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-40
+2026-04-22 15:16:01,300 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-40
+2026-04-22 15:16:01,515 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-39
+2026-04-22 15:16:01,515 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-39
+2026-04-22 15:16:02,429 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-41
+2026-04-22 15:16:02,429 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-41
+2026-04-22 15:16:02,430 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-43
+2026-04-22 15:16:02,431 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-43
+2026-04-22 15:16:02,513 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-42
+2026-04-22 15:16:02,513 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-42
+2026-04-22 15:16:03,208 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-44
+2026-04-22 15:16:03,208 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-44
+2026-04-22 15:16:03,726 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-46
+2026-04-22 15:16:03,726 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-46
+2026-04-22 15:16:03,976 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-45
+2026-04-22 15:16:03,976 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-45
+2026-04-22 15:16:04,749 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-47
+2026-04-22 15:16:04,750 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-47
+2026-04-22 15:16:04,793 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-49
+2026-04-22 15:16:04,793 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-49
+2026-04-22 15:16:04,985 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-48
+2026-04-22 15:16:04,985 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-48
+2026-04-22 15:16:05,751 INFO o.a.j.t.JMeterThread: Thread is done: TG1 Ramp-up 50 users 1-50
+2026-04-22 15:16:05,751 INFO o.a.j.t.JMeterThread: Thread finished: TG1 Ramp-up 50 users 1-50
+2026-04-22 15:16:05,752 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-04-22 15:16:05,753 INFO o.a.j.r.Summariser: summary +     79 in 00:00:06 =   13.9/s Avg:    89 Min:     9 Max:   383 Err:     0 (0.00%) Active: 0 Started: 150 Finished: 150
+2026-04-22 15:16:05,754 INFO o.a.j.r.Summariser: summary =   1600 in 00:00:56 =   28.6/s Avg:   374 Min:     5 Max:  1829 Err:     0 (0.00%)
+2026-04-22 15:16:05,755 INFO o.a.j.JMeter: Generating Dashboard
+2026-04-22 15:16:05,755 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-04-22 15:16:05,787 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-04-22 15:16:06,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-04-22 15:16:06,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-04-22 15:16:06,078 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-04-22 15:16:06,079 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-04-22 15:16:06,090 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-04-22 15:16:06,094 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-04-22 15:16:06,094 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-04-22 15:16:06,094 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-04-22 15:16:06,153 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-04-22 15:16:06,155 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-04-22 15:16:06,156 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-04-22 15:16:06,157 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-04-22 15:16:06,191 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-04-22 15:16:06,192 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 11200 samples
+2026-04-22 15:16:06,192 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-04-22 15:16:06,193 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-04-22 15:16:06,193 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-04-22 15:16:06,194 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-04-22 15:16:06,195 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-04-22 15:16:06,196 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-04-22 15:16:06,204 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-04-22 15:16:06,209 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-04-22 15:16:06,210 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-04-22 15:16:06,211 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-04-22 15:16:06,212 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 24000 samples
+2026-04-22 15:16:06,212 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 4800 samples
+2026-04-22 15:16:06,212 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1600 samples
+2026-04-22 15:16:06,213 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1600 samples produced in 377ms on channel 0
+2026-04-22 15:16:06,213 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-04-22 15:16:06,363 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-04-22 15:16:06,364 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-04-22 15:16:06,364 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-04-22 15:16:06,365 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-04-22 15:16:06,366 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/raj/Desktop/Assignments/finalyear/mis/hospital_management/jmeter/results/html_report/statistics.json
+2026-04-22 15:16:06,444 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-04-22 15:16:06,449 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/raj/Desktop/Assignments/finalyear/mis/hospital_management/jmeter/results/html_report
+2026-04-22 15:16:06,710 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/raj/Desktop/Assignments/finalyear/mis/hospital_management/jmeter/results/html_report, creating folder structure
+2026-04-22 15:16:06,717 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/home/raj/Downloads/apache-jmeter-5.6.3/bin/report-template' to '/home/raj/Desktop/Assignments/finalyear/mis/hospital_management/jmeter/results/html_report', got message: /home/raj/Desktop/Assignments/finalyear/mis/hospital_management/jmeter/results/html_report, found non empty folder with following content [/home/raj/Desktop/Assignments/finalyear/mis/hospital_management/jmeter/results/html_report/statistics.json], will be ignored
+2026-04-22 15:16:07,170 INFO o.a.j.JMeter: Dashboard generated

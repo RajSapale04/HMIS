@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import rateLimit from 'express-rate-limit';
+// import rateLimit from 'express-rate-limit';
 import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
 import connectDB from './config/db.js';
@@ -13,17 +13,18 @@ import dashboardRoutes from './routes/dashboardRoutes.js';
 import doctorRoutes from './routes/doctorRoutes.js'
 import { errorHandler } from './middleware/errorHandler.js';
 import 'dotenv/config';
+// import { authLimiter, generalLimiter } from './middleware/rateLimiter.js';
 
 connectDB();
 const app = express();
 
 app.use(helmet());
 app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
-app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 200 }));
+// app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 200 }));
 app.use(morgan('dev'));
 app.use(express.json());
 app.use(cookieParser());
-
+// app.use(generalLimiter);
 app.use('/api/auth', authRoutes);
 app.use('/api/patients', patientRoutes);
 app.use('/api/appointments', appointmentRoutes);
@@ -35,7 +36,7 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
-if (process.env.NODE_ENV !== 'test') {
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-}
+
 export default app;

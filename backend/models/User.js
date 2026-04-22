@@ -14,7 +14,8 @@ const userSchema = new mongoose.Schema({
 
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();
-  this.password = await bcrypt.hash(this.password, 12);
+  const saltRounds = process.env.NODE_ENV === 'production' ? 12 : 10;
+  this.password = await bcrypt.hash(this.password, saltRounds);
   next();
 });
 

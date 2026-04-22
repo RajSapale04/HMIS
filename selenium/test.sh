@@ -1,0 +1,1 @@
+npx mocha selenium/hmis.selenium.test.js --timeout 60000
